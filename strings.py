@@ -1,5 +1,8 @@
 import random
 
+def countWordsInString(my_string):
+    return len(my_string.split())
+
 # this function takes a string and returns a string with all the words reversed
 # e.g. reverse("one two three") returns "three two one"
 def reverseWords(s):
